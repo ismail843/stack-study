@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Master - Learn HTML, CSS & JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-laptop-code"></i>
+            <h1>WebDev Master</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#html-ref">HTML</a></li>
+                <li><a href="#css-ref">CSS</a></li>
+                <li><a href="#js-ref">JavaScript</a></li>
+                <li><a href="#practice">Practice</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Master Web Development from Scratch</h2>
+                <p>Comprehensive references and interactive coding environment for HTML, CSS, and JavaScript</p>
+                <div class="cta-buttons">
+                    <a href="#html-ref" class="cta-button">Start with HTML</a>
+                    <a href="#practice" class="cta-button secondary">Practice Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- HTML Reference Section -->
+        <section id="html-ref" class="reference-section">
+            <h2><i class="fab fa-html5"></i> HTML Complete Reference</h2>
+            
+            <div class="reference-intro">
+                <h3>What is HTML?</h3>
+                <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of web pages using markup.</p>
+                <div class="code-example">
+                    <h4>Basic HTML Document Structure:</h4>
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Document Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Content goes here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="full-reference">
+                <h3>Complete HTML Tags Reference</h3>
+                
+                <!-- Document Structure -->
+                <div class="reference-category">
+                    <h4>Document Structure</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>&lt;!DOCTYPE&gt;</code>
+                            <p>Defines the document type and HTML version</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;html&gt;</code>
+                            <p>Root element of an HTML page</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;head&gt;</code>
+                            <p>Contains meta information about the document</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;body&gt;</code>
+                            <p>Contains the visible page content</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Metadata -->
+                <div class="reference-category">
+                    <h4>Metadata</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>&lt;title&gt;</code>
+                            <p>Defines the title of the document</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;meta&gt;</code>
+                            <p>Provides metadata about the HTML document</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;link&gt;</code>
+                            <p>Defines relationship between documents</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;style&gt;</code>
+                            <p>Contains CSS for the document</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;script&gt;</code>
+                            <p>Contains JavaScript code</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;base&gt;</code>
+                            <p>Specifies base URL/target for relative URLs</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Content Sectioning -->
+                <div class="reference-category">
+                    <h4>Content Sectioning</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>&lt;h1&gt;-&lt;h6&gt;</code>
+                            <p>HTML headings from level 1-6</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;header&gt;</code>
+                            <p>Represents introductory content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;footer&gt;</code>
+                            <p>Represents footer for its section</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;main&gt;</code>
+                            <p>Contains the main content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;section&gt;</code>
+                            <p>Defines a section in a document</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;article&gt;</code>
+                            <p>Contains independent, self-contained content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;aside&gt;</code>
+                            <p>Contains content indirectly related to main content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;nav&gt;</code>
+                            <p>Contains navigation links</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;address&gt;</code>
+                            <p>Contains contact information</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;div&gt;</code>
+                            <p>Generic container for flow content</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Text Content -->
+                <div class="reference-category">
+                    <h4>Text Content</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>&lt;p&gt;</code>
+                            <p>Defines a paragraph</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;hr&gt;</code>
+                            <p>Creates a thematic break</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;pre&gt;</code>
+                            <p>Defines preformatted text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;blockquote&gt;</code>
+                            <p>Contains a section quoted from another source</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;ol&gt;</code>
+                            <p>Defines an ordered list</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;ul&gt;</code>
+                            <p>Defines an unordered list</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;li&gt;</code>
+                            <p>Defines a list item</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;dl&gt;</code>
+                            <p>Defines a description list</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;dt&gt;</code>
+                            <p>Defines a term in a description list</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;dd&gt;</code>
+                            <p>Describes the term in a description list</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;figure&gt;</code>
+                            <p>Contains self-contained content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;figcaption&gt;</code>
+                            <p>Defines caption for a figure</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Inline Text Semantics -->
+                <div class="reference-category">
+                    <h4>Inline Text Semantics</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>&lt;a&gt;</code>
+                            <p>Defines a hyperlink</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;span&gt;</code>
+                            <p>Generic inline container</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;strong&gt;</code>
+                            <p>Indicates important text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;em&gt;</code>
+                            <p>Indicates emphasized text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;mark&gt;</code>
+                            <p>Represents highlighted text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;small&gt;</code>
+                            <p>Represents side-comments</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;del&gt;</code>
+                            <p>Represents deleted text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;ins&gt;</code>
+                            <p>Represents inserted text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;sub&gt;</code>
+                            <p>Defines subscript text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;sup&gt;</code>
+                            <p>Defines superscript text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;code&gt;</code>
+                            <p>Defines a piece of computer code</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;kbd&gt;</code>
+                            <p>Represents keyboard input</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;samp&gt;</code>
+                            <p>Represents sample output</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;var&gt;</code>
+                            <p>Defines a variable</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;time&gt;</code>
+                            <p>Represents a time/date</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;abbr&gt;</code>
+                            <p>Represents an abbreviation</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;b&gt;</code>
+                            <p>Bolds text without importance</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;i&gt;</code>
+                            <p>Italicizes text without emphasis</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;u&gt;</code>
+                            <p>Underlines text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;q&gt;</code>
+                            <p>Defines a short inline quotation</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;cite&gt;</code>
+                            <p>Defines the title of a work</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;dfn&gt;</code>
+                            <p>Represents the defining instance of a term</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;ruby&gt;</code>
+                            <p>Represents ruby annotations</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;rt&gt;</code>
+                            <p>Defines pronunciation of characters</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;rp&gt;</code>
+                            <p>Defines what to show in browsers that don't support ruby</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;bdi&gt;</code>
+                            <p>Isolates bidirectional text</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;bdo&gt;</code>
+                            <p>Overrides text direction</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;br&gt;</code>
+                            <p>Produces a line break</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>&lt;wbr&gt;</code>
+                            <p>Defines a possible line-break</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More HTML categories would continue here -->
+                <!-- (Images, Audio/Video, Tables, Forms, Interactive Elements, etc.) -->
+                
+            </div>
+        </section>
+
+        <!-- CSS Reference Section -->
+        <section id="css-ref" class="reference-section">
+            <h2><i class="fab fa-css3-alt"></i> CSS Complete Reference</h2>
+            
+            <div class="reference-intro">
+                <h3>What is CSS?</h3>
+                <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
+                <div class="code-example">
+                    <h4>Basic CSS Syntax:</h4>
+                    <pre><code>selector {
+    property: value;
+}</code></pre>
+                </div>
+            </div>
+
+            <div class="full-reference">
+                <h3>Complete CSS Properties Reference</h3>
+                
+                <!-- CSS Selectors -->
+                <div class="reference-category">
+                    <h4>Selectors</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>element</code>
+                            <p>Selects all elements of specified type</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>.class</code>
+                            <p>Selects elements with specified class</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>#id</code>
+                            <p>Selects element with specified id</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>*</code>
+                            <p>Selects all elements</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element,element</code>
+                            <p>Selects multiple elements</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element element</code>
+                            <p>Selects descendant elements</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element>element</code>
+                            <p>Selects direct child elements</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element+element</code>
+                            <p>Selects adjacent sibling</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element~element</code>
+                            <p>Selects general siblings</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>[attribute]</code>
+                            <p>Selects elements with attribute</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>[attribute=value]</code>
+                            <p>Selects elements with attribute=value</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>:hover</code>
+                            <p>Selects elements on mouse hover</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>:focus</code>
+                            <p>Selects element that has focus</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>:first-child</code>
+                            <p>Selects first child element</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>:last-child</code>
+                            <p>Selects last child element</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>:nth-child(n)</code>
+                            <p>Selects nth child element</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Box Model -->
+                <div class="reference-category">
+                    <h4>Box Model</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>width</code>
+                            <p>Sets element width</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>height</code>
+                            <p>Sets element height</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>margin</code>
+                            <p>Sets all margin properties</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>margin-top</code>
+                            <p>Sets top margin</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>margin-right</code>
+                            <p>Sets right margin</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>margin-bottom</code>
+                            <p>Sets bottom margin</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>margin-left</code>
+                            <p>Sets left margin</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>padding</code>
+                            <p>Sets all padding properties</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>padding-top</code>
+                            <p>Sets top padding</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>padding-right</code>
+                            <p>Sets right padding</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>padding-bottom</code>
+                            <p>Sets bottom padding</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>padding-left</code>
+                            <p>Sets left padding</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>border</code>
+                            <p>Sets all border properties</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>border-width</code>
+                            <p>Sets border width</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>border-style</code>
+                            <p>Sets border style</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>border-color</code>
+                            <p>Sets border color</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>border-radius</code>
+                            <p>Rounds element corners</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>box-sizing</code>
+                            <p>Defines how width/height are calculated</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>box-shadow</code>
+                            <p>Adds shadow effects</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More CSS categories would continue here -->
+                <!-- (Display, Positioning, Flexbox, Grid, Typography, Colors, etc.) -->
+                
+            </div>
+        </section>
+
+        <!-- JavaScript Reference Section -->
+        <section id="js-ref" class="reference-section">
+            <h2><i class="fab fa-js"></i> JavaScript Complete Reference</h2>
+            
+            <div class="reference-intro">
+                <h3>What is JavaScript?</h3>
+                <p>JavaScript is a programming language that enables interactive web pages and is an essential part of web applications.</p>
+                <div class="code-example">
+                    <h4>Basic JavaScript Example:</h4>
+                    <pre><code>// Change HTML content
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+
+// Change CSS style
+document.getElementById("demo").style.color = "red";
+
+// Click event handler
+document.getElementById("btn").addEventListener("click", function() {
+    alert("Button clicked!");
+});</code></pre>
+                </div>
+            </div>
+
+            <div class="full-reference">
+                <h3>Complete JavaScript Reference</h3>
+                
+                <!-- JS Basics -->
+                <div class="reference-category">
+                    <h4>Basics</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>Variables</code>
+                            <p>var, let, const</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Data Types</code>
+                            <p>String, Number, Boolean, Object, etc.</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Operators</code>
+                            <p>+, -, *, /, %, ++, --, =, ==, ===, etc.</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Conditionals</code>
+                            <p>if, else, else if, switch</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Loops</code>
+                            <p>for, while, do while, for...in, for...of</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Functions</code>
+                            <p>function declaration, expression, arrow</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Objects</code>
+                            <p>Properties, methods, constructors</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Arrays</code>
+                            <p>Creating, accessing, methods</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Events</code>
+                            <p>onclick, onload, onchange, etc.</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>Error Handling</code>
+                            <p>try, catch, finally, throw</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DOM Manipulation -->
+                <div class="reference-category">
+                    <h4>DOM Manipulation</h4>
+                    <div class="tags-grid">
+                        <div class="tag-item">
+                            <code>document.getElementById()</code>
+                            <p>Selects element by id</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>document.querySelector()</code>
+                            <p>Selects first matching element</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>document.querySelectorAll()</code>
+                            <p>Selects all matching elements</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.innerHTML</code>
+                            <p>Gets/sets HTML content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.textContent</code>
+                            <p>Gets/sets text content</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.style</code>
+                            <p>Access inline styles</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.classList</code>
+                            <p>Manipulates element classes</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.setAttribute()</code>
+                            <p>Sets attribute value</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.getAttribute()</code>
+                            <p>Gets attribute value</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>document.createElement()</code>
+                            <p>Creates new element</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.appendChild()</code>
+                            <p>Adds child element</p>
+                        </div>
+                        <div class="tag-item">
+                            <code>element.removeChild()</code>
+                            <p>Removes child element</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More JS categories would continue here -->
+                <!-- (Events, AJAX, ES6 Features, etc.) -->
+                
+            </div>
+        </section>
+
+        <!-- Practice Section -->
+        <section id="practice" class="practice-section">
+            <h2>Interactive Coding Playground</h2>
+            <div class="practice-environment">
+                <div class="code-editor">
+                    <div class="editor-tabs">
+                        <button class="active" data-tab="html">HTML</button>
+                        <button data-tab="css">CSS</button>
+                        <button data-tab="js">JavaScript</button>
+                    </div>
+                    <div class="editor-content">
+                        <textarea id="html-editor" class="active">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My Practice Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;Edit this code to practice.&lt;/p&gt;
+    &lt;button id="myButton"&gt;Click Me&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+                        <textarea id="css-editor">body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}</textarea>
+                        <textarea id="js-editor">document.getElementById('myButton').addEventListener('click', function() {
+    alert('Button clicked!');
+});</textarea>
+                    </div>
+                    <button id="run-code" class="run-button">Run Code <i class="fas fa-play"></i></button>
+                </div>
+                <div class="output-preview">
+                    <iframe id="output-frame"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About WebDev Master</h4>
+                <p>Your complete reference for HTML, CSS, and JavaScript with interactive coding playground.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#html-ref">HTML Reference</a></li>
+                    <li><a href="#css-ref">CSS Reference</a></li>
+                    <li><a href="#js-ref">JavaScript Reference</a></li>
+                    <li><a href="#practice">Coding Playground</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:contact@webdevmaster.com">Email Us</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 WebDev Master. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
